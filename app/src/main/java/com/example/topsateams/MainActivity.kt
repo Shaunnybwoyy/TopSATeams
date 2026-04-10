@@ -23,7 +23,11 @@ class MainActivity : AppCompatActivity() {
         // get the teams text view
         val TeamsTxt = findViewById<TextView>(R.id.teamsDisplayTxt)
         var teamsDisplayTxt = ""
-        var count = 0    
+        var count = 0
+
+        //calling logArrValues function
+        logArrValues(teams)
+        logArrValues
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
