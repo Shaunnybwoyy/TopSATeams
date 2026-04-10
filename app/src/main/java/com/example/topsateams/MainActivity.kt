@@ -7,6 +7,12 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
+
+    //created array to hold up 5 soccer teams
+
+    val teams = arrayOf<String>("Mam Sundowns FC" ,"Bidwest Wits","Orlando Pirates","Kaizer Chiefs"
+                               , "Cape Town City FC")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
