@@ -14,13 +14,16 @@ fun getShortestString(arr: List<String>): String {
 
 fun main() {
     val topSoccerTeams = listOf(
-        "Real Madrid",
-        "FC Barcelona",
-        "Manchester City",
-        "Bayern Munich",
-        "Liverpool",
-        "Chelsea",
-        "PSG"
+        "Kaizer Chiefs",
+        "Orlando Pirates",
+        "Mamelodi Sundowns",
+        "Cape Town City",
+        "SuperSport United",
+        "Golden Arrows",
+        "AmaZulu FC",
+        "Stellenbosch FC",
+        "TS Galaxy",
+        "Chippa United"
     )
 
     val shortestTeam = getShortestString(topSoccerTeams)
