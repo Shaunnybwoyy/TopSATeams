@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/derjani_football_2778583_1920"
     tools:context=".MainActivity">
 
     <TextView
